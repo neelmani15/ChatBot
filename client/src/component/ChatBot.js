@@ -28,7 +28,7 @@ const ChatBot = () => {
       setInputValue('');
   
       try {
-        const response = await axios.post('/chat', { prompt: inputValue });
+        const response = await axios.post('https://chat-bot-backend-two.vercel.app/chat', { prompt: inputValue });
         const botResponse = response.data;
         console.log(botResponse);
         setMessages(prevMessages => [...prevMessages, { text: botResponse, sender: 'bot' }]);
