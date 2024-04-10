@@ -1,0 +1,48 @@
+@media only screen and (max-width:768px) and (min-width:330px){
+    .main1-div {
+        max-width: 90%;
+    }
+    .input-feild{
+        max-width: 90%;
+    }
+    
+      .icon1-div {
+        position: fixed;
+        bottom: 1rem; 
+        right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .main1-div {
+        max-width: 90%;
+    }
+    .input-field {
+        width: calc(100% - 60px);
+      }
+    .input-field::placeholder {
+      font-size: 12px;
+    }
+    .icon1-div {
+        position: fixed;
+        bottom: 1rem; 
+        right: 1rem;
+    }
+  }
+
+
+
+@media only screen and (min-width:768px) {
+    .main1-div {
+        max-width: 74%;
+    }
+    .para {
+        margin: 2rem; 
+      }
+      
+      .icon1-div {
+        position: fixed;
+        bottom: 1rem; 
+        right: 1rem; 
+      }
+}
